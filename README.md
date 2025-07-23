@@ -2,7 +2,7 @@
 
 <pre>
   <code>
-    wget -O buil.sh https://raw.githubusercontent.com/NuhaHumaira/ImmortalWrt-Nss/main/build.sh && chmod +x buil.sh && ./buil.sh
+    wget -O buil.sh https://raw.githubusercontent.com/BootLoopLover/ImmortalWrt-Nss/main/build.sh && chmod +x buil.sh && ./buil.sh
   </code>
 </pre>
 
