@@ -1,13 +1,28 @@
-# BULDER
+# HOW TO BUILD
 
-<pre>
-  <code>
-    wget -O build.sh https://raw.githubusercontent.com/BootLoopLover/ImmortalWrt-Nss/main/build.sh && chmod +x build.sh && ./build.sh
-  </code>
-</pre>
+```
+git clone https://github.com/BootLoopLover/ImmortalWrt-Nss.git
+```
 
-## INFO
-- NSS VERSION 12
-- IMMORTALWRT VERSION 24.10.2
+```
+./scripts/feeds update -a
+./scripts/feeds install -a
+```
 
-## TRY AND ERROR
+```
+cp nss-setup/config-nss.seed .config
+```
+
+```
+make menuconfig
+```
+
+# TICK ALL THE PACKAGE YOU NEED
+
+```
+make -j5 V=s
+```
+
+
+# Based On Openwrt Official firmware v24.10.2
+# Add On Nss Package Firmware By Qosmio
