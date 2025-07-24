@@ -24,5 +24,5 @@ make -j5 V=s
 ```
 
 
-# Based On Openwrt Official firmware v24.10.2
+# Based On ImmortalWrt Official firmware v24.10.2
 # Add On Nss Package Firmware By Qosmio
