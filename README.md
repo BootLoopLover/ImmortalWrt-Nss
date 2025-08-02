@@ -2,6 +2,7 @@
 
 ```
 git clone https://github.com/BootLoopLover/ImmortalWrt-Nss.git
+cd ImmortalWrt-Nss
 ```
 
 ```
